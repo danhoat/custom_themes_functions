@@ -1,0 +1,10 @@
+ae-sync-user
+do: register
+method: create
+
+do_action('ae_insert_user', $result, $user_data);
+
+add_filter('ae_update_user', 'sync_profile_data'); ==> tạo profile
+
+Meta key: user_profile_id, user_profile_id
+update_user_meta($author_id, 'user_profile_id', $profile_id);
