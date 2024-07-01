@@ -1,0 +1,3 @@
+- Add field in signup.
+- Add field country/chosing in signup form.
+- Add tooltip hover.
